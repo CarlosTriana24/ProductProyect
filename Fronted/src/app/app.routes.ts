@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { ProductsComponent } from './components/products/products.component';
-import { Page404Component } from './components/page404/page404.component';
-import { ProductsInputFieldsComponent } from './components/products/products-input-fields/products-input-fields.component';
+import { ProductsComponent } from './pages/products/products.component';
+import { Page404Component } from './shared/components/page404/page404.component';
+import { ProductsInputFieldsComponent } from './pages/products/products-input-fields/products-input-fields.component';
 
 export const routes: Routes = [
     {

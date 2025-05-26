@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
 import { Product } from '../products.component';
-import { ProductoServicesService } from '../../core/producto-services.service';
+import { ProductoServicesService } from '../../../core/services/producto-services.service';
 import { Router } from '@angular/router';
 
 @Component({

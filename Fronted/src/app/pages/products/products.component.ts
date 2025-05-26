@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { TableModule } from 'primeng/table';
-import { ProductoServicesService } from '../core/producto-services.service';
+import { ProductoServicesService } from '../../core/services/producto-services.service';
 import { ButtonModule } from 'primeng/button';
 import { RouterLink } from '@angular/router';
 
